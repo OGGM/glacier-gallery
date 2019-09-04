@@ -1,0 +1,22 @@
+name: explorer
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - jupyter
+  - bokeh
+  - nbserverproxy
+  - tornado<6
+  - ipywidgets
+  - graphviz
+  - matplotlib=3.0.3
+  - pyviz_comms
+  - param
+  - holoviews
+  - hvplot
+  - geoviews
+  - panel
+  - parambokeh
+  - datashader
+  - ipympl
+
