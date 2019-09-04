@@ -1,3 +1,13 @@
 .ipynb_checkpoints/
-.nbgrader.log
+design
+Docs
+examples
+00_rgi60.zip
+Gletscher_Info_Sammlung.ipynb
+Hilfe_Links.ipynb
 
+v1_bokeh_plot_image.ipynb
+v2_1_bokeh_imghover_RGI_textbox.ipynb
+v2_bokeh_imghover_RGI.ipynb
+v3_geoviews_imghover.ipynb
+.nbgrader.log
