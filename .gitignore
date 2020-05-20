@@ -13,3 +13,5 @@ v3_geoviews_imghover.ipynb
 .nbgrader.log
 explorer_old.ipynb
 explorer-19_11_26.ipynb
+
+__pycache__
