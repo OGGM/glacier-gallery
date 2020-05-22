@@ -2,30 +2,31 @@
 supported_languages = ['en', 'de']
 
 trads = {
-    'Title_hp':
+    'Title_hp': 
         {
-            'en': '<div style="font-size:38px; color: #326a86; font-weight: bold" >Glacier Gallery</div>',
-            'de': '<div style="font-size:38px; color: #326a86; font-weight: bold" >Gletschergallerie</div>'
+            'en': 'Glacier Gallery',
+            'de': 'Gletschergallerie'
         },  
     
     'instruction':
         {
-            'en': '<div style="font-size:15px; color: #326a86" >Explore glaciers of the world by moving the mouse over the colored dots on the map. <br> When you <b>click</b> on them, information about the glacier type will appear in the box on the right.</div>',
-            'de': '<div style="font-size:15px; color: #326a86" >Entdecke verschiedene Gletscher dieser Erde. Fahre dazu mit der Maus über die farbigen Markierungen auf der Karte. <br>Wenn du sie <b>anklickst</b> erscheinen Informationen zum entsprechenden Gletschertyp in der Box auf der rechten Seite.</div>'
+            'en': 'Explore glaciers of the world by moving the mouse over the colored dots on the map. <br> When you <b>click</b> on them, information about the glacier type will appear in the box on the right.',
+            'de': 'Entdecke verschiedene Gletscher dieser Erde. Fahre dazu mit der Maus über die farbigen Markierungen auf der Karte. <br>Wenn du sie <b>anklickst</b> erscheinen Informationen zum entsprechenden Gletschertyp in der Box auf der rechten Seite.'
         }, 
     
     'link_to_license_intro':
         {
-            'en': '<div>Links to licenses of the images:</div>',
-            'de': '<div> Links zu den Bilderlizenzen:</div>'
+            'en': 'Links to licenses of the images:',
+            'de': 'Links zu den Bilderlizenzen:'
         },  
     
     'links_pic_src_intro':
         {
-            'en': '<div>Links to sources of the images:</div>',
-            'de': '<div> Links zu den Bilderquellen:</div>'
+            'en': 'Links to sources of the images:',
+            'de': 'Links zu den Bilderquellen:'
         },  
     
+# text box texts, headers and sources:    
     'tab_title_1':
         {
             'en': 'Glacier type',
@@ -37,7 +38,6 @@ trads = {
             'en': 'Glacier definition',
             'de': 'Gletscherdefinition'
         },
-    
     
     'Glacier_title':
         {
@@ -69,7 +69,7 @@ trads = {
             'de': "Eiskappe"
         },
     
-    # Textbreite wichtig
+    # text width matters
     'Glacier_definition':
         {
             'en': """
@@ -375,6 +375,7 @@ trads = {
     """        
     },
     
+# translation in dataframe:    
     'TerminusType_land':
         {
             'en': 'Land-terminating',
@@ -385,29 +386,22 @@ trads = {
         {
             'en': 'Marine-terminating',
             'de': 'Endet im Meer'
-        }    
-}
-
-links = {
-    'links_license': """<div> 
-                            <a href="https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en">CC BY-SA 3.0 IGO </a> <br>
-                            <a href="https://creativecommons.org/licenses/by-nc/4.0/"> CC BY-NC</a> <br>
-                            <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0 </a> <br>
-                            <a href="https://creativecommons.org/licenses/by/3.0/deed.en">CC BY 3.0 (Creative Commons Attribution 3.0 Unported)</a>
-                      </div>""",
-    'links_pics': """<div>
-                        <a href="http://nsidc.org/data/glacier_photo/search/image_info/lemoncreek20070917" >Lemon Creek Glacier</a> <br>
-                        <a href="https://commons.wikimedia.org/wiki/File:Columbia_Glacier_(Alaska)_by_Sentinel-2.jpg" >Columbia Glacier</a> <br>
-                        <a href="http://nsidc.org/data/glacier_photo/search/image_info/white2012059902?order=true" >White Glacier</a> <br>
-                        <a href="http://nsidc.org/data/glacier_photo/search/image_info/mittivakkat20130827?order=true" > Mittivakkat Glacier</a> <br>
-                        <a href="http://nsidc.org/data/glacier_photo/search/image_info/briksdalsbreen20090730?order=true" >Briksdalsbreen</a> <br>
-                        <a href="http://nsidc.org/data/glacier_photo/search/image_info/hintereisferner20060912?order=true" >Hintereisferner</a> <br>
-                        <a href="https://commons.wikimedia.org/wiki/File:Grosser_Aletschgletscher_3196.JPG" >Großer Aletschgletscher</a> <br>
-                        <a href="http://nsidc.org/data/glacier_photo/search/image_info/tbilisa20109999" >Tbilisa Glacier</a> <br>
-                        <a href="http://nsidc.org/data/glacier_photo/search/image_info/lewis20120223" >Lewis Glacier</a> <br>
-                        <a href="https://commons.wikimedia.org/wiki/File:Artesonraju_Peru.jpg" >Artesonraju</a> <br>
-                        <a href="https://eol.jsc.nasa.gov/SearchPhotos/photo.pl?mission=ISS016&roll=E&frame=24897" >Perito Moreno</a> <br>
-                        <a href="https://commons.wikimedia.org/wiki/File:Lower_Tasman_Glacier_towards_Minarets.jpg" >Tasman Glacier</a> <br>
-                        <a href="http://nsidc.org/data/glacier_photo/search/image_info/bahiadeldiablo20040224" >Bahia Del Diablo Glacier</a>
-                   </div>"""
+        },
+    
+    'pic_pretext':
+        {
+            'en': 'Photo courtesy',
+            'de': 'Foto:'},
+    
+# tooltip code:
+    'tooltip_length':
+        {
+            'en': 'Length',
+            'de': 'Länge'},
+    
+    'tooltip_loc':
+        {
+            'en': 'Location',
+            'de': 'Koordinaten'
+        }
 }
