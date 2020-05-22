@@ -1,8 +1,11 @@
 # Glacier Gallery
 OGGM edu app: Photo gallery of various glacier types
-for more info, visit [edu.oggm.org](https://edu.oggm.org)
+for more information, visit [edu.oggm.org](https://edu.oggm.org)
 
-The aim of the app is to show and explain different types of glaciers and where they are located in the world. The design is a map where the glaciers are marked and presented with photos.
+The app shows and explains different types of glaciers and where they are located in the world. The design is a map where the glaciers are marked and presented with photos. The user can choose between different languages.
+
+Improvements:
+The app would still profit from additional glacier presentations in regions that are not represented yet. Everyone who want to contribute is welcomed to add glacier photos and the glaciers' types into the [gallery_data.py](https://github.com/OGGM/glacier-gallery/blob/master/gallery_data.py) file. An important information to add is the RGI-Number, because information about the glaciers is gained from the [Randolph Glacier Inventory](https://www.glims.org/RGI/) within the app.
 
 Author:
 - [Zora Schirmeister](https://github.com/zschirmeister) (University of Innsbruck)
