@@ -1,22 +1,17 @@
-name: explorer
+name: glacier-app
 channels:
   - conda-forge
 dependencies:
-  - python=3.6
-  - jupyter
-  - bokeh
-  - nbserverproxy
-  - tornado<6
-  - ipywidgets
-  - graphviz
-  - matplotlib=3.0.3
-  - pyviz_comms
+  - pip
+  - python=3.9
   - param
+  - pyviz_comms
+  - datashader
+  - bokeh
   - holoviews
-  - hvplot
   - geoviews
   - panel
-  - parambokeh
-  - datashader
-  - ipympl
+  - pytables
+  - pip:
+    - jupyter-panel-proxy
 
