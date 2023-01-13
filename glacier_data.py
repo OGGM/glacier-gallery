@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # Important: fill the list with increasing rgi-ids!
 # order of entries in tuples: 
                         # RGI-ID, Name, glacier type(Pure ice glacier, Debris covered glacier, Calving glacier, Ice cap),
@@ -115,7 +116,7 @@ glaciers = [('RGI60-01.01104', 'Lemon Creek Glacier', 'Pure ice glacier',
               #('RGI60-09.00471', 'Vavilov Ice Cap', np.NaN, np.NaN,  '', ''),
               #('RGI60-13.04946', 'Samoilowich', np.NaN, np.NaN, '', ''), 
               #('RGI60-19.00386', 'Ross Island', '', '', ''),
-                
+
 
 links = {
     # links of the licences of the pictures
