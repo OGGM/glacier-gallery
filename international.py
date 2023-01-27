@@ -33,10 +33,34 @@ trads = {
             'de': 'Gletschertyp'
         },
     
-    'tab_title_2':
+    'tab_title_glacier_definition':
         {
-            'en': 'Glacier definition',
-            'de': 'Gletscherdefinition'
+            'en': 'Glaciers',
+            'de': 'Gletscher'
+        },
+    
+    'tab_title_pure_ice':
+        {
+            'en': "Pure ice",
+            'de': "Eisgletscher"
+        },
+    
+    'tab_title_calving':
+        {
+            'en': "Calving",
+            'de': "Kalbend"
+        },
+    
+    'tab_title_debris':
+        {
+            'en': "Debris covered",
+            'de': "Blockgletscher"
+        },
+    
+    'tab_title_ice_cap':
+        {
+            'en': "Ice cap",
+            'de': "Eiskappe"
         },
     
     'Glacier_title':
@@ -57,7 +81,7 @@ trads = {
             'de': "Kalbender Gletscher"
         },
     
-    'type_debris_covered':
+    'type_debris':
         {
             'en': "Debris covered glacier",
             'de': "Blockgletscher"
@@ -122,8 +146,9 @@ trads = {
     'Qin, G.-K. Plattner, M. Tignor, S.K. Allen, J. Boschung, A. Nauels, Y. ' +
     'Xia, V. Bex and P.M. Midgley (eds.)]. Cambridge University Press, ' +
     'Cambridge, United Kingdom and New York, NY, USA, 1535 pp., ' +
-    'http://www.antarcticglaciers.org/glacier-processes/glacier-types/' +
-    'types-of-glaciers/'),
+    '<a href="http://www.antarcticglaciers.org/glacier-processes/glacier-types/' +
+    'types-of-glaciers/">http://www.antarcticglaciers.org/glacier-processes/glacier-types/' +
+    'types-of-glaciers/</a>'),
             'de':(
     'siehe IPCC, 2013: Climate Change 2013: The Physical Science Basis. ' +
     'Contribution of Working Group I to the Fifth Assessment Report of ' +
@@ -226,7 +251,7 @@ trads = {
     'und der Fließgeschwindigkeit des Eises.')
     },
     
-    'calving_glacier_source':
+    'calving_source':
         {
             'en': (
     'see Bishop, M. P., Björnsson, H., Haeberli, W., Oerlemans, J., ' +
@@ -284,7 +309,7 @@ trads = {
     'die vorherrschende Gletscherform.')
     },
     
-    'debris_glacier_source':
+    'debris_source':
         {
             'en': (
     'see Bishop, M. P., Björnsson, H., Haeberli, W., Oerlemans, J., ' +
