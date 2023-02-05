@@ -5,7 +5,7 @@
 glaciers = [{'rgi_id': 'RGI60-01.01104',
              'name': 'Lemon Creek Glacier',
              'type': 'Pure ice glacier',
-             'img': 'https://raw.githubusercontent.com/OGGM/glacier-gallery/master/glacier_photos/lemoncreek.jpg',
+             'img': 'https://raw.githubusercontent.com/pat-schmitt/glacier-gallery/adapt_data_handling/glacier_photos/lemoncreek.jpg',
              'img_pretext': 'Photo courtesy',
              'img_cite': 'L. Bernier/National Snow and Ice Data Center',
              'img_license': '',
