@@ -1,30 +1,26 @@
 # -*- coding: utf-8 -*-
 # list of dicts for individual glaciers, each dict must look like
-# {'rgi_id': '', 'name': '', 'type': '', 'img': '', 'img_pretext': '', 'img_cite': '', 'img_license': '', 'img_license_link': '', 'img_width': '', 'img_height': '', 'img_source': ''}
+# {'rgi_id': '', 'name': '', 'type': '', 'img': '', 'img_pretext': '', 'img_cite': '', 'img_license': '', 'img_license_link': '', 'img_source': ''}
 
 glaciers = [{'rgi_id': 'RGI60-01.01104',
              'name': 'Lemon Creek Glacier',
              'type': 'Pure ice glacier',
-             'img': 'https://raw.githubusercontent.com/pat-schmitt/glacier-gallery/adapt_data_handling/glacier_photos/lemoncreek.jpg',
+             'img': 'https://raw.githubusercontent.com/OGGM/glacier-gallery/master/glacier_photos/lemoncreek.jpg',
              'img_pretext': 'Photo courtesy',
              'img_cite': 'L. Bernier/National Snow and Ice Data Center',
              'img_license': '',
              'img_license_link': '',
-             'img_width': '390',
-             'img_height': '260',
              'img_source': 'http://nsidc.org/data/glacier_photo/search/image_info/lemoncreek20070917'
              },
 
             {'rgi_id': 'RGI60-01.10689',
              'name': 'Columbia Glacier',
              'type': 'Calving glacier',
-             'img': 'https://upload.wikimedia.org/wikipedia/commons/7/7b/Columbia_Glacier_%28Alaska%29_by_Sentinel-2.jpg',
+             'img': 'https://raw.githubusercontent.com/OGGM/glacier-gallery/master/glacier_photos/columbia.jpg',
              'img_pretext': '',
              'img_cite': 'Photo contains modified Copernicus Sentinel-2 data, (European Space Agency - ESA)  2018',
              'img_license': '(CC BY-SA 3.0 IGO)',
              'img_license_link': 'https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en',
-             'img_width': '300',
-             'img_height': '318',
              'img_source': 'https://commons.wikimedia.org/wiki/File:Columbia_Glacier_(Alaska)_by_Sentinel-2.jpg'
              },
 
@@ -36,8 +32,6 @@ glaciers = [{'rgi_id': 'RGI60-01.01104',
              'img_cite': 'J. Alean/National Snow and Ice Data Center',
              'img_license': '',
              'img_license_link': '',
-             'img_width': '300',
-             'img_height': '200',
              'img_source': 'http://nsidc.org/data/glacier_photo/search/image_info/white20080702'
             },
 
@@ -49,8 +43,6 @@ glaciers = [{'rgi_id': 'RGI60-01.01104',
              'img_cite': 'N. Knudsen/National Snow and Ice Data Center',
              'img_license': '',
              'img_license_link': '',
-             'img_width': '400',
-             'img_height': '300',
              'img_source': 'http://nsidc.org/data/glacier_photo/search/image_info/mittivakkat20130827?order=true'
             },
 
@@ -62,8 +54,6 @@ glaciers = [{'rgi_id': 'RGI60-01.01104',
              'img_cite': 'H. Crites',
              'img_license': '',
              'img_license_link': '',
-             'img_width': '300',
-             'img_height': '225',
              'img_source': 'https://www.researchgate.net/publication/325218515_Drumlins_in_the_Nordenskioldbreen_forefield_Svalbard'
             },
 
@@ -75,34 +65,28 @@ glaciers = [{'rgi_id': 'RGI60-01.01104',
              'img_cite': 'J. Perez Crespo/National Snow and Ice Data Center',
              'img_license': '(CC BY-NC)',
              'img_license_link': 'https://creativecommons.org/licenses/by-nc/4.0/',
-             'img_width': '259',
-             'img_height': '387',
              'img_source': 'http://nsidc.org/data/glacier_photo/search/image_info/briksdalsbreen20090730?order=true'
             },
 
             {'rgi_id': 'RGI60-11.00897',
              'name': 'Hintereisferner',
              'type': 'Pure ice glacier',
-             'img': 'https://raw.githubusercontent.com/OGGM/glacier-gallery/master/glacier_photos/hintereisferner.bmp',
+             'img': 'https://raw.githubusercontent.com/OGGM/glacier-gallery/master/glacier_photos/hintereisferner.jpg',
              'img_pretext': 'Photo courtesy',
              'img_cite': 'A. Lambrecht/National Snow and Ice Data Center',
              'img_license': '',
              'img_license_link': '',
-             'img_width': '400',
-             'img_height': '265',
              'img_source': 'http://nsidc.org/data/glacier_photo/search/image_info/hintereisferner20060912?order=true'
             },
 
             {'rgi_id': 'RGI60-11.01450',
              'name': 'Großer Aletschgletscher',
              'type': 'Pure ice glacier',
-             'img': 'https://upload.wikimedia.org/wikipedia/commons/a/a1/Grosser_Aletschgletscher_3196.JPG',
+             'img': 'https://raw.githubusercontent.com/OGGM/glacier-gallery/master/glacier_photos/aletsch.jpg',
              'img_pretext': 'Photo courtesy',
              'img_cite': 'Dirk Beyer',
              'img_license': '(CC BY-SA 3.0)',
              'img_license_link': 'https://creativecommons.org/licenses/by-sa/3.0/',
-             'img_width': '408',
-             'img_height': '306',
              'img_source': 'https://commons.wikimedia.org/wiki/File:Grosser_Aletschgletscher_3196.JPG'
             },
 
@@ -114,21 +98,17 @@ glaciers = [{'rgi_id': 'RGI60-01.01104',
              'img_cite': 'L. Tielidze/National Snow and Ice Data Center',
              'img_license': '',
              'img_license_link': '',
-             'img_width': '360',
-             'img_height': '272',
              'img_source': 'http://nsidc.org/data/glacier_photo/search/image_info/tbilisa20109999'
             },
 
             {'rgi_id': 'RGI60-15.03733',
              'name': 'Khumbu Glacier',
              'type': 'Debris covered glacier',
-             'img': 'https://raw.githubusercontent.com/OGGM/glacier-gallery/master/glacier_photos/khumbu.JPG',
+             'img': 'https://raw.githubusercontent.com/OGGM/glacier-gallery/master/glacier_photos/khumbu.jpg',
              'img_pretext': 'Photo courtesy',
              'img_cite': 'Z. Schirmeister',
              'img_license': '',
              'img_license_link': '',
-             'img_width': '400',
-             'img_height': '300',
              'img_source': ''
             },
 
@@ -140,21 +120,17 @@ glaciers = [{'rgi_id': 'RGI60-01.01104',
              'img_cite': 'R. Prinz/National Snow and Ice Data Center',
              'img_license': '',
              'img_license_link': '',
-             'img_width': '400',
-             'img_height': '300',
              'img_source': 'http://nsidc.org/data/glacier_photo/search/image_info/lewis20120223'
             },
 
             {'rgi_id': 'RGI60-16.02444',
              'name': 'Artesonraju',
              'type': 'Pure ice glacier',
-             'img': 'https://upload.wikimedia.org/wikipedia/commons/0/06/Artesonraju_Peru.jpg',
+             'img': 'https://raw.githubusercontent.com/OGGM/glacier-gallery/master/glacier_photos/artesonraju.jpg',
              'img_pretext': 'Photo courtesy',
              'img_cite': 'Jonas Jancarik',
              'img_license': '(CC BY 3.0)',
              'img_license_link': 'https://creativecommons.org/licenses/by/3.0/deed.en',
-             'img_width': '400',
-             'img_height': '276',
              'img_source': 'https://commons.wikimedia.org/wiki/File:Artesonraju_Peru.jpg'
             },
 
@@ -166,34 +142,28 @@ glaciers = [{'rgi_id': 'RGI60-01.01104',
              'img_cite': 'Imagery from International Space Station, courtesy Earth Science and Remote Sensing Unit, NASA Johnson Space Center',
              'img_license': '',
              'img_license_link': '',
-             'img_width': '400',
-             'img_height': '272',
              'img_source': 'https://eol.jsc.nasa.gov/SearchPhotos/photo.pl?mission=ISS016&roll=E&frame=24897'
             },
 
             {'rgi_id': 'RGI60-18.02342',
              'name': 'Tasman Glacier',
              'type': 'Debris covered glacier',
-             'img': 'https://upload.wikimedia.org/wikipedia/commons/8/87/Lower_Tasman_Glacier_towards_Minarets.jpg',
+             'img': 'https://raw.githubusercontent.com/OGGM/glacier-gallery/master/glacier_photos/lower_tasman.jpg',
              'img_pretext': '',
              'img_cite': '',
              'img_license': '(released into public domain by holder of the work)',
              'img_license_link': '',
-             'img_width': '400',
-             'img_height': '266',
              'img_source': 'https://commons.wikimedia.org/wiki/File:Lower_Tasman_Glacier_towards_Minarets.jpg'
             },
 
             {'rgi_id': 'RGI60-19.00595',
              'name': 'Bahia Del Diablo Glacier',
              'type': 'Pure ice glacier',
-             'img': 'https://raw.githubusercontent.com/OGGM/glacier-gallery/master/glacier_photos/bahiadeldiablo.bmp',
+             'img': 'https://raw.githubusercontent.com/OGGM/glacier-gallery/master/glacier_photos/bahiadeldiablo.jpg',
              'img_pretext': 'Photo courtesy',
              'img_cite': 'P. Skvarca/National Snow and Ice Data Center',
              'img_license': '',
              'img_license_link': '',
-             'img_width': '400',
-             'img_height': '260',
              'img_source': 'http://nsidc.org/data/glacier_photo/search/image_info/bahiadeldiablo20040224'
             },
 
