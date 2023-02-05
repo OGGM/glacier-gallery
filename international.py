@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-supported_languages = ['en', 'de']
-
-trads = {
+trans = {
     'Title_hp': 
         {
             'en': 'Glacier Gallery',
@@ -20,7 +18,7 @@ trads = {
             'de': 'Links zu den Bilderlizenzen:'
         },  
     
-    'links_pic_src_intro':
+    'links_img_src_intro':
         {
             'en': 'Links to sources of the images:',
             'de': 'Links zu den Bilderquellen:'
@@ -393,16 +391,10 @@ trads = {
             'de': 'Endet im Meer'
         },
     
-    'pic_pretext':
+    'img_pretext':
         {
             'en': 'Photo courtesy',
             'de': 'Foto:'
-        },
-    
-    'no_glacier_selected':
-        {
-            'en': 'No glacier selected!',
-            'de': 'Keinen Gletscher ausgewählt!'
         },
 
 # tooltip code:
