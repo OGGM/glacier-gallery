@@ -8,6 +8,8 @@ The app shows and explains different types of glaciers and where they are locate
 
 Author:
 - [Zora Schirmeister](https://github.com/zschirmeister) (University of Innsbruck)
+- [Patrick Schmitt](https://github.com/pat-schmitt) (University of Innsbruck)
+- [Fabien Maussion](https://github.com/fmaussion) (University of Innsbruck)
 
 License: GNU Lesser General Public License v3.0
 
