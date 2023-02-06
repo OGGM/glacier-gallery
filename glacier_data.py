@@ -49,7 +49,7 @@ glaciers = [{'rgi_id': 'RGI60-01.01104',
             {'rgi_id': 'RGI60-07.00570',
              'name': 'Nordenskioldbreen',
              'type': 'Calving glacier',
-             'img': 'https://raw.githubusercontent.com/OGGM/glacier-gallery/master/glacier_photos/nordenskioldbreen.JPG',
+             'img': 'https://raw.githubusercontent.com/OGGM/glacier-gallery/master/glacier_photos/nordenskioldbreen.jpg',
              'img_pretext': 'Photo courtesy',
              'img_cite': 'H. Crites',
              'img_license': '',
@@ -101,16 +101,16 @@ glaciers = [{'rgi_id': 'RGI60-01.01104',
              'img_source': 'http://nsidc.org/data/glacier_photo/search/image_info/tbilisa20109999'
             },
 
-            {'rgi_id': 'RGI60-15.03733',
-             'name': 'Khumbu Glacier',
-             'type': 'Debris covered glacier',
-             'img': 'https://raw.githubusercontent.com/OGGM/glacier-gallery/master/glacier_photos/khumbu.jpg',
-             'img_pretext': 'Photo courtesy',
-             'img_cite': 'Z. Schirmeister',
-             'img_license': '',
-             'img_license_link': '',
-             'img_source': ''
-            },
+            # {'rgi_id': 'RGI60-15.03733',
+            #  'name': 'Khumbu Glacier',
+            #  'type': 'Debris covered glacier',
+            #  'img': 'https://raw.githubusercontent.com/OGGM/glacier-gallery/master/glacier_photos/khumbu.jpg',
+            #  'img_pretext': 'Photo courtesy',
+            #  'img_cite': 'Z. Schirmeister',
+            #  'img_license': '',
+            #  'img_license_link': '',
+            #  'img_source': ''
+            # },
 
             {'rgi_id': 'RGI60-16.01638',
              'name': 'Lewis',
@@ -165,6 +165,29 @@ glaciers = [{'rgi_id': 'RGI60-01.01104',
              'img_license': '',
              'img_license_link': '',
              'img_source': 'http://nsidc.org/data/glacier_photo/search/image_info/bahiadeldiablo20040224'
+            },
+
+            {'rgi_id': 'RGI60-15.03743',
+             'name': 'Imja Glacier',
+             'type': 'Debris covered glacier',
+             'img': 'https://raw.githubusercontent.com/OGGM/glacier-gallery/master/glacier_photos/imja_s.jpg',
+             'img_pretext': 'Photo courtesy',
+             'img_cite': 'D. Rounce',
+             'img_license': '',
+             'img_license_link': '',
+             'img_source': ''
+            },
+            
+
+            {'rgi_id': 'RGI60-13.54211',
+             'name': 'Puruogangri Ice Cap',
+             'type': 'Ice cap',
+             'img': 'https://raw.githubusercontent.com/OGGM/glacier-gallery/master/glacier_photos/puruogangri.jpg',
+             'img_pretext': 'Photo courtesy',
+             'img_cite': 'WWF',
+             'img_license': '',
+             'img_license_link': '',
+             'img_source': 'http://awsassets.panda.org/downloads/himalayaglaciersreport2005.pdf'
             },
 
              ]
